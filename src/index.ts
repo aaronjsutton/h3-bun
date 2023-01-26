@@ -1,1 +1,1 @@
-export default function test() {}
+export { toFetchHandler } from "./fetch"
