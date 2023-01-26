@@ -5,7 +5,7 @@
 [![Github Actions][github-actions-src]][github-actions-href]
 [![Codecov][codecov-src]][codecov-href]
 
-> Package description
+> [H3](https://github.com/unjs/h3) on [Bun](https://bun.sh)
 
 ## Usage
 
