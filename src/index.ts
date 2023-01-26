@@ -1,1 +1,1 @@
-export { toFetchHandler } from "./fetch"
+export { toFetchHandler } from "./fetch";
