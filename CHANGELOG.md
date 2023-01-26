@@ -1,6 +1,17 @@
 # Changelog
 
 
+## v0.1.4
+
+
+### 🏡 Chore
+
+  - Update README badges (68ff1c6)
+
+### ❤️  Contributors
+
+- Aaron Sutton <hey@aaron.as>
+
 ## v0.1.3
 
 
