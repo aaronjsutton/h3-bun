@@ -12,8 +12,6 @@
 
 - Aaron Sutton <hey@aaron.as>
 
-## v0.1.2
-
 ## v0.1.1
 
 

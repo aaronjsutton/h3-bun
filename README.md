@@ -1,4 +1,4 @@
-# packageName
+# h3-bun
 
 [![npm version][npm-version-src]][npm-version-href]
 [![npm downloads][npm-downloads-src]][npm-downloads-href]
@@ -13,23 +13,23 @@ Install package:
 
 ```sh
 # npm
-npm install packageName
+npm install h3-bun
 
 # yarn
-yarn add packageName
+yarn add h3-bun
 
 # pnpm
-pnpm install packageName
+pnpm install h3-bun
 ```
 
 Import:
 
 ```js
 // ESM
-import {} from "packageName";
+import {} from "h3-bun";
 
 // CommonJS
-const {} = require("packageName");
+const {} = require("h3-bun");
 ```
 
 ## Development
@@ -46,11 +46,11 @@ Published under [MIT License](./LICENSE).
 
 <!-- Badges -->
 
-[npm-version-src]: https://img.shields.io/npm/v/packageName?style=flat-square
-[npm-version-href]: https://npmjs.com/package/packageName
-[npm-downloads-src]: https://img.shields.io/npm/dm/packageName?style=flat-square
-[npm-downloads-href]: https://npmjs.com/package/packageName
-[github-actions-src]: https://img.shields.io/github/workflow/status/unjs/packageName/ci/main?style=flat-square
-[github-actions-href]: https://github.com/unjs/packageName/actions?query=workflow%3Aci
-[codecov-src]: https://img.shields.io/codecov/c/gh/unjs/packageName/main?style=flat-square
-[codecov-href]: https://codecov.io/gh/unjs/packageName
+[npm-version-src]: https://img.shields.io/npm/v/h3-bun?style=flat-square
+[npm-version-href]: https://npmjs.com/package/h3-bun
+[npm-downloads-src]: https://img.shields.io/npm/dm/h3-bun?style=flat-square
+[npm-downloads-href]: https://npmjs.com/package/h3-bun
+[github-actions-src]: https://img.shields.io/github/workflow/status/aaronjsutton/h3-bun/ci/main?style=flat-square
+[github-actions-href]: https://github.com/aaronjsutton/h3-bun/actions?query=workflow%3Aci
+[codecov-src]: https://img.shields.io/codecov/c/gh/aaronjsutton/h3-bun/main?style=flat-square
+[codecov-href]: https://codecov.io/gh/aaronjsutton/h3-bun
