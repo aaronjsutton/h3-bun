@@ -9,7 +9,7 @@ export function toFetchHandler(app: App): FetchHandler {
   return async function toFetchHandle(input: Request): Promise<Response> {
     try {
       const url = new $URL(input.url).fullpath;
-      const r = await call(new Request(url, input));
+      const r = await call(new Request(url, input.clone()));
       return new Response(r.body, {
         status: r.status,
         statusText: r.statusText,
