@@ -1,6 +1,21 @@
 # Changelog
 
 
+## v0.1.5
+
+
+### 🩹 Fixes
+
+  - **request:** Correct request headers passthrough (9edddfa)
+
+### 🏡 Chore
+
+  - Update README (b133396)
+
+### ❤️  Contributors
+
+- Aaron Sutton <hey@aaron.as>
+
 ## v0.1.4
 
 
