@@ -1,6 +1,17 @@
 # Changelog
 
 
+## v0.1.6
+
+
+### 🩹 Fixes
+
+  - Clone the input stream (55e9371)
+
+### ❤️  Contributors
+
+- Aaron Sutton <hey@aaron.as>
+
 ## v0.1.5
 
 
