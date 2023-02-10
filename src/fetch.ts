@@ -9,7 +9,9 @@ export function toFetchHandler(app: App): FetchHandler {
   return async function toFetchHandle(input: Request): Promise<Response> {
     try {
       const url = new $URL(input.url).fullpath;
-      const r = await call(new Request(url, input.clone()));
+			// Needed to tee the input stream, otherwise output is not readable. 
+      input.clone();
+      const r = await call(new Request(url, input));
       return new Response(r.body, {
         status: r.status,
         statusText: r.statusText,
