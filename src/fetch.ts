@@ -9,7 +9,9 @@ export function toFetchHandler(app: App): FetchHandler {
   return async function toFetchHandle(input: Request): Promise<Response> {
     try {
       const url = new $URL(input.url).fullpath;
+			if (input.method == "GET") console.log(input.headers.get("cookie"));
       const r = await call(new Request(url, input));
+			console.log(r);
       return new Response(r.body, {
         status: r.status,
         statusText: r.statusText,
