@@ -1,6 +1,18 @@
 # Changelog
 
 
+## v0.1.7
+
+
+### 🩹 Fixes
+
+  - Remove clone() (e23732f)
+  - Stream bugs (d34d98c)
+
+### ❤️  Contributors
+
+- Aaron Sutton <hey@aaron.as>
+
 ## v0.1.6
 
 
